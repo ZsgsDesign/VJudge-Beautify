@@ -1,0 +1,119 @@
+.container > dd{
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    /*border: 1px solid rgba(0,0,0,.125);*/
+    box-shadow: none;
+    font-family: "Merriweather", "Consolas",serif;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.14), 0 2px 2px 0 rgba(0,0,0,.12), 0 1px 3px 0 rgba(0,0,0,.2);
+}
+.group-card .brief {
+    line-height:1.5;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color:#000 !important;
+}
+.group-card > table .card.left, .group-card > table .card.right{
+    margin-bottom: .75rem;
+    background-color: #fff;
+    /*border-radius: .25rem;*/
+    border: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.14), 0 2px 2px 0 rgba(0,0,0,.12), 0 1px 3px 0 rgba(0,0,0,.2);    
+    overflow:hidden;
+}
+#group-logo {
+    max-height: unset!important;
+}
+.group-card td{
+    padding: 0!important;
+}
+.group-card > table .card.left{
+    -webkit-border-radius: 0.25rem 0 0 0.25rem;
+}
+.group-card > table .card.right{
+    -webkit-border-radius: 0 0.25rem 0.25rem 0;
+}
+.group-card .logo img, .group-card div.name {
+    border-radius: 0!important;
+}
+.container > dt{
+    margin-bottom: 20px;
+}
+#prob-title-contest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#prob-title-contest > .origin{
+    flex-shrink: 0;
+}
+.nav-tabs > .nav-item > .nav-link.active{
+    background-color: transparent; 
+    border-bottom-color: #e9e9ea;
+}
+
+button, .btn, *{
+    -o-transition: .3s ease-in .0s;
+    -webkit-transition: .3s ease-in .0s;
+    -moz-transition: .3s ease-in .0s;
+    transition: .3s ease-in .0s;
+}
+pre, xmp, plaintext, listing {
+    font-family: "Merriweather", "Consolas",serif;
+}
+.nav-pills > .nav-item > .nav-link:hover{
+    background-color: rgba(255,255,255,.8);
+}
+.nav-tabs > .nav-item > .nav-link.active:hover{
+    background-color: transparent; 
+    border-bottom-color: #e9e9ea;
+}
+.navbar {
+    border-radius: 0 !important;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.14), 0 3px 4px 0 rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+}
+#listProblem > tbody > tr > td > div{
+    height:auto;
+}
+
+#listStatus > tbody > tr > td > div{
+    height:auto;
+}
+#listProblem > tbody > tr > td.source div{
+    height:auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+td{
+    line-height:2;
+}
+.localizedTime,#listProblem > tbody > tr > td.date.sorting_1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#source_discuss > .comment-posts-container{
+    margin-left:0;
+}
+table{
+    min-width:100%;
+}
+.slider-handle, .contest-time{
+    transition: .0s ease-in .0s;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
